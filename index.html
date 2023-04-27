@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give me love</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="container">
+        <h2 class="text">ស្រលាញ់ខ្ញុំដែរទេ​? ❤️</h2>
+        <button class="btn btnPrimary">yes</button>
+        <button class="btn btnSecondery">No</button>
+    </section>
+
+    <script>
+        const btnAgree = document.querySelector(".btnPrimary")
+        const btnDisagree = document.querySelector(".btnSecondery")
+        const text = document.querySelector(".text")
+
+        btnAgree.addEventListener("click", ()=>{text.innerText = "​​​តោះ រៀបការស្អែក 😍"})
+        btnDisagree.addEventListener("mouseover" ,()=>{
+            if(btnDisagree.classList.contains("moving"))
+                {
+                    btnDisagree.classList.remove("moving");
+                }
+            else{
+                btnDisagree.classList.add("moving");
+            }
+
+        })
+    </script>
+</body>
+</html>

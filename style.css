@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    background-color: #80D0C7;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 2ms;
+}
+.btnPrimary{
+    color: white;
+    background-color: #0093E9;
+}
+.btnSecondery{
+    padding: 0.5rem 1rem;
+    background-color: aliceblue;
+}
+.moving {
+    margin-left: 90px;
+}
